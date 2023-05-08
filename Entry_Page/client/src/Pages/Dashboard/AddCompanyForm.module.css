@@ -1,0 +1,91 @@
+.addCompanyFormContainer {
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 20px;
+   }
+   
+   .nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 20px;
+   }
+   
+   .cancelBtn {
+     padding: 10px 20px;
+     background-color: #ccc;
+     border: none;
+     border-radius: 5px;
+     color: #fff;
+     text-decoration: none;
+     transition: background-color 0.2s ease-in-out;
+   }
+   
+   .cancelBtn:hover {
+     background-color: #999;
+   }
+   
+   .form {
+     display: flex;
+     flex-wrap: wrap;
+   }
+   
+   .formGroup {
+     flex: 1;
+     margin-bottom: 20px;
+   }
+   
+   .formGroup label {
+     display: block;
+     margin-bottom: 5px;
+     font-weight: bold;
+   }
+   
+   .formGroup input[type="text"],
+   .formGroup input[type="date"],
+   .formGroup textarea {
+     width: 100%;
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     font-size: 16px;
+   }
+   
+   .formGroup input[type="radio"] {
+     margin-right: 5px;
+   }
+   
+   .formGroup textarea {
+     resize: vertical;
+   }
+   
+   .formGroup:last-of-type {
+     margin-bottom: 0;
+   }
+   
+   .radioGroup {
+     display: flex;
+     align-items: center;
+     margin-top: 5px;
+   }
+   
+   .submitBtn {
+     padding: 10px 20px;
+     background-color: #007bff;
+     border: none;
+     border-radius: 5px;
+     color: #fff;
+     cursor: pointer;
+     transition: background-color 0.2s ease-in-out;
+   }
+   
+   .submitBtn:hover {
+     background-color: #0062cc;
+   }
+   
+   @media (max-width: 768px) {
+     .formGroup {
+       flex: 1 0 100%;
+     }
+   }
+   
