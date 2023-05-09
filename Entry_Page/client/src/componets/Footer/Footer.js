@@ -100,7 +100,7 @@ function Footer() {
               </p>
               <p>
                 <MDBIcon color='secondary' icon='envelope' className='me-3' />
-                umps@gmail.com
+                upms@gmail.com
               </p>
               <p>
                 <MDBIcon color='secondary' icon='phone' className='me-3' /> + 91 99999 99999

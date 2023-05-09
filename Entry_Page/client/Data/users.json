@@ -1,0 +1,121 @@
+[{
+  "_id": {
+    "$oid": "64358c08f01a8a8cff970121"
+  },
+  "firstName": "Rohit",
+  "lastName": "Beniwal",
+  "email": "rohitbeni31@gmail.com",
+  "password": "$2a$12$SnKoML./BNAadK6KiZ9tp.Fpe6qTYpj4hiFrb.D/HaTtzI9KyPiy.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644fd21f0841f98bdd3ea381"
+  },
+  "firstName": "New_Login",
+  "lastName": "CHeck",
+  "email": "login1@gmail.com",
+  "password": "$2a$12$Q0cSIl6eCF9M3QMVsbzFeOqLp8J0yG7xW2Cp7jLnpyWTH6GTLIYt2",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6453fa2129a878f3e99c9b1b"
+  },
+  "firstName": "Takshilaa",
+  "lastName": "Takshilaa",
+  "email": "takshila08@gmail.com",
+  "password": "$2a$12$H30.5E255/LJH2X.ZTl/9OX8qXELGlEck4TQi5bf.W.qxeBs6VaK2",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645a1e799918ef3741251587"
+  },
+  "firstName": "New",
+  "lastName": "user",
+  "email": "new@123.com",
+  "password": "$2a$12$0.gabLnVHwzbhHHqz8ypHuwS/G6IEvmK./5sVTZNzvAulf1c3pEwa",
+  "__v": 0
+},
+{
+  "_id": {
+  "$oid": "645a1e799918ef3741251588"
+  },
+  "firstName": "Siddharth",
+  "lastName": "Gupta",
+  "email": "siddharth.gupta@hotmail.in",
+  "password": "$2a$12$qFjwI1dGXvCmV7R74RdtI.Kj7XuBmB7WyWNkGyS67AG1smMvEiKY2",
+  "__v": 0
+  },{
+  "_id": {
+  "$oid": "645a1e799918ef3741251589"
+  },
+  "firstName": "Priya",
+  "lastName": "Sharma",
+  "email": "priya.sharma@yahoo.co.in",
+  "password": "$2a$12$QzZgbX9YGVQ2ZZ/1rbiLhezkkeugLHlNsi6U25N6d/gOxHvX9weLu",
+  "__v": 0
+  },{
+  "_id": {
+  "$oid": "645a1e799918ef3741251590"
+  },
+  "firstName": "Rahul",
+  "lastName": "Patil",
+  "email": "rahul.patil@gmail.co.in",
+  "password": "$2a$12$cQyv1m7VclFmD0z7V8FiZ.9X/RB5.w5O5S5N8OvMNfEgd4zgMV4qa",
+  "__v": 0
+  },{
+  "_id": {
+  "$oid": "645a1e799918ef3741251591"
+  },
+  "firstName": "Kiran",
+  "lastName": "Reddy",
+  "email": "kiran.reddy@rediffmail.in",
+  "password": "$2a$12$g0IbnjJ8pV/jOxOED3I9ZexN5Y5jLhGwNwBpCIfyW6uOov6Ujglz2",
+  "__v": 0
+  },
+  {
+    "_id": {
+    "$oid": "646230be88aa9a0db13d98a1"
+    },
+    "firstName": "Sneha",
+    "lastName": "Gupta",
+    "email": "snehagupta91@gmail.com",
+    "password": "$2a$12$b26S5R5dV19QIQXg5m3q4OZI4Hlu7spczJFGxkV7ViFYKbwEDGY7K",
+    "__v": 0
+    },{
+    "_id": {
+    "$oid": "6462310d88aa9a0db13d98a2"
+    },
+    "firstName": "Amit",
+    "lastName": "Sharma",
+    "email": "amit.sharma1980@yahoo.in",
+    "password": "$2a$12$0v/evLZD8duTROjKZxzY/OwHJc.1dfVEzjVDNab/BGNCvFWumc.bW",
+    "__v": 0
+    },{
+    "_id": {
+    "$oid": "6462313c88aa9a0db13d98a3"
+    },
+    "firstName": "Raj",
+    "lastName": "Patel",
+    "email": "rajpatel_86@hotmail.com",
+    "password": "$2a$12$V7xuB2JzlB7dO/rzKjshNui1MMXTEGtVZiYBKrTZ7VfM2/Uy/7VzK",
+    "__v": 0
+    },{
+    "_id": {
+    "$oid": "6462315e88aa9a0db13d98a4"
+    },
+    "firstName": "Priya",
+    "lastName": "Singh",
+    "email": "priya_singh_1985@rediffmail.com",
+    "password": "$2a$12$Q2ZG5FrWf6OHnLHQylii6.rAGU6wWzPIbTw/Q6P9d6vyxJ6Znq3Lq",
+    "__v": 0
+    },{
+    "_id": {
+    "$oid": "6462319b88aa9a0db13d98a5"
+    },
+    "firstName": "Anil",
+    "lastName": "Kumar",
+    "email": "anil.kumar1987@gmail.com",
+    "password": "$2a$12$zOZPhknkX9og6JMHhAMny.q8hnjJmYVEPVgG00pEJt5D5KL5fBdX2",
+    "__v": 0
+    }
+]

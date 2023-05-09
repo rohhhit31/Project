@@ -1,0 +1,62 @@
+Find all companies with a pay package greater than or equal to 10 lakhs:
+db.companies.find({ payPackage: { $gte: "10 lakhs" } })
+
+
+Find all companies that have a bond requirement:
+db.companies.find({ bond: { $exists: true } })
+
+
+Find all companies that have an online mode of drive:
+db.companies.find({ modeOfDrive: "online" })
+
+
+Find all companies that require a particular stream:
+db.companies.find({ streamRequired: "Computer Science" })
+
+
+Find all companies that have a job profile with a word "software":
+db.companies.find({ jobProfile: { $regex: /software/ } })
+
+
+Find all companies that have a registration link:
+db.companies.find({ registrationLink: { $exists: true } })
+
+
+Find all companies that require a minimum percentage of 75%:
+db.companies.find({ eligibilityCriteria: { $regex: /75%/ } })
+
+
+Find all companies that have a date of drive after 2023-05-01:
+db.companies.find({ dateOfDrive: { $gte: new Date("2023-05-01") } })
+
+
+Find all companies that have a position of "Software Engineer":
+db.companies.find({ position: "Software Engineer" })
+
+
+Find all companies that have a location in Bangalore:
+db.companies.find({ location: "Bangalore" })
+
+
+query for student data
+
+Find all students whose course is "Computer Science" and branch is "Data Science":
+db.students.find({course: "Computer Science", branch: "Data Science"})
+
+Find all students who scored more than 90 in both 10th and 12th grades:
+db.students.find({marks10th: {$gt: 90}, marks12th: {$gt: 90}})
+
+Find all students who were born after January 1st, 2002:
+db.students.find({dob: {$gt: ISODate("2002-01-01T00:00:00.000Z")}})
+
+Find all students who have a CGPA greater than 8.5:
+db.students.find({cgpa: {$gt: 8.5}})
+
+Find all students whose age is between 20 and 22:
+db.students.find({age: {$gte: 20, $lte: 22}})
+
+Find all students who are studying in their third year:
+db.students.find({year: 3})
+
+Find all students whose batch is either "2022-2026" or "2023":
+db.students.find({$or: [{batch: "2022-2026"}, {batch: "2023"}]})

@@ -1,77 +1,94 @@
 .container {
-     margin: auto;
-     width: 80%;
-     max-width: 800px;
-   }
-   
-   .card {
-     margin-top: 2rem;
-     padding: 2rem;
-     border: 1px solid #ccc;
-     border-radius: 5px;
-     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-   }
-   
-   h1 {
-     text-align: center;
-     margin-bottom: 2rem;
-   }
-   
-   h2 {
-     font-size: 1.5rem;
-     margin-bottom: 1rem;
-   }
-   
-   table {
-     width: 100%;
-     border-collapse: collapse;
-   }
-   
-   th,
-   td {
-     padding: 0.5rem;
-     text-align: left;
-   }
-   
-   th {
-     border-bottom: 1px solid #ccc;
-   }
-   
-   tbody tr:nth-child(even) {
-     background-color: #f2f2f2;
-   }
-   
-   .buttons {
-     margin-top: 2rem;
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     align-items: center;
-   }
-   
-   button {
-     background-color: #4caf50;
-     color: white;
-     border: none;
-     padding: 0.5rem 1rem;
-     border-radius: 5px;
-     cursor: pointer;
-     transition: background-color 0.3s ease-in-out;
-   }
-   
-   button:hover {
-     background-color: #3e8e41;
-   }
-   
-   label {
-     font-size: 1.2rem;
-     margin-right: 1rem;
-   }
-   
-   input {
-     font-size: 1.2rem;
-     padding: 0.5rem;
-     border-radius: 5px;
-     border: 1px solid #ccc;
-   }
-   
+  margin: auto;
+  max-width: 800px;
+  width: 80%;
+}
+
+.card {
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #273043;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #273043;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 1.5rem;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6;
+}
+
+th {
+  font-size: 1.5rem;
+  background-color: #273043;
+  color: #ffffff;
+  border-bottom: 3px solid #273043;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 1rem; /* Added font size */
+  min-width: 80px; /* Added minimum width */
+  margin: 0 0.5rem; /* Added margin */
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+
+label {
+  font-size: 1rem;
+  margin-right: 2rem;
+  color: #273043;
+}
+
+
+
+input {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+   /* add this line */
+}
+unique{
+max-width: 80px;
+}

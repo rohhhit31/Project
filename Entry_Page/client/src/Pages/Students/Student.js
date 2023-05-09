@@ -28,6 +28,9 @@ function Student() {
     setFormData((prevData) => ({ ...prevData, [e.target.name]: e.target.value }));
   };
 
+
+
+
   return (
     <div className={styles.formContainer}>
       <form className={styles.form} onSubmit={handleSubmit}>

@@ -89,7 +89,7 @@ function ViewStatistics() {
           <button onClick={handleResetCounts}>Reset Counts</button>
           <div>
             <label htmlFor="dayCount">Day Count:</label>
-            <input
+            <input className={DashboardStyles.unique}
               id="dayCount"
               type="number"
               value={dayCount}
