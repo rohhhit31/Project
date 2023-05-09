@@ -9,6 +9,8 @@ import Nav from "./componets/nav";
 import Student from "./Pages/Students/Student";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import AddCompanyForm from "./Pages/Dashboard/AddCompanyForm";
+import ViewStatistics from './Pages/Dashboard/ViewStatistics';
+import Footer from "./componets/Footer/Footer";
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
         <Route path="/students/add" element={<Student/>}/>
         <Route path="/dashboard" element={<Dashboard/>}/>
         <Route path="/companies/add" element={<AddCompanyForm />} />
+        <Route path="/dashboard/statistics" element={<ViewStatistics/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }

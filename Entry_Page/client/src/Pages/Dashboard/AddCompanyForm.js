@@ -69,6 +69,10 @@ function AddCompanyForm() {
         <div className={AddCompanyFormStyles.formGroup}>
           <label htmlFor="bond">Bond</label>
           <div className={AddCompanyFormStyles.radioGroup}>
+          <input type="radio" id="online" name="modeOfDrive" value="online" required />
+            <label htmlFor="online">Online</label>
+            <input type="radio" id="offline" name="modeOfDrive" value="offline" required />
+            <label htmlFor="offline">Offline</label>
                 </div>
     </div>
     <div className={AddCompanyFormStyles.formGroup}>
