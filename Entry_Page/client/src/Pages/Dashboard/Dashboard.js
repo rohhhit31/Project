@@ -28,13 +28,25 @@ function Dashboard() {
       <div className={DashboardStyles.cardContainer}>
         <div className={DashboardStyles.dashboardCard}>
         <Link to="/dashboard/statistics">
-            <h2>VIEW STATISTICS</h2>
+            <h2>HANDLE STATISTICS</h2>
           </Link>
         </div>
         <div className={DashboardStyles.dashboardCard}>
           <a href="https://github.com/EbookFoundation/free-programming-books" onClick={handleStudyMaterialClick}>
             <h2>STUDY MATERIAL</h2>
           </a>
+        </div>
+      </div>
+      <div className={DashboardStyles.cardContainer}>
+        <div className={DashboardStyles.dashboardCard}>
+          <Link to="/dashboard/studentlist">
+            <h2>STUDENT LIST</h2>
+          </Link>
+        </div>
+        <div className={DashboardStyles.dashboardCard}>
+          <Link to="/dashboard/companylist" className={DashboardStyles.link}>
+            <h2>COMPANY LIST</h2>
+          </Link>
         </div>
       </div>
       

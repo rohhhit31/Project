@@ -1,46 +1,125 @@
 import React from 'react';
-import {
-  MDBFooter,
-  MDBContainer,
-  MDBCol,
-  MDBRow,
-  MDBBtn,
-  MDBInput
-} from 'mdb-react-ui-kit';
+import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 
 function Footer() {
   return (
-    <MDBFooter bgColor='dark' className='text-center text-white text-lg-left'>
-      <MDBContainer className='p-4 pb-0'>
-        <form action=''>
-          <MDBRow className='d-flex justify-content-center'>
-            <MDBCol size='auto' className='mb-4 mb-md-0'>
-              <p className='pt-2'>
-                <strong>Enter e-mail for Placement Updates</strong>
+<MDBFooter style={{ backgroundColor: '#050505',color: 'white' }} className='text-center text-lg-start text-muted'>
+      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+        <div className='me-5 d-none d-lg-block'>
+          <span>Get connected with us on social networks:</span>
+        </div>
+
+        <div>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon color='secondary' fab icon='facebook-f' />
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon color='secondary' fab icon='twitter' />
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon color='secondary' fab icon='google' />
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon color='secondary' fab icon='instagram' />
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon color='secondary' fab icon='linkedin' />
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon color='secondary' fab icon='github' />
+          </a>
+        </div>
+      </section>
+
+      <section className=''>
+        <MDBContainer className='text-center text-md-start mt-5'>
+          <MDBRow className='mt-3'>
+            <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>
+                <MDBIcon color='secondary' icon='gem' className='me-3' />
+                UPMS
+              </h6>
+              <p>
+                Fueling career growth through seamless Placements.
               </p>
             </MDBCol>
 
-            <MDBCol md='5' size='12' className='mb-4 mb-md-0'>
-              <MDBInput type='text' id='form5Example2' label='Email address' contrast />
+            <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>Goals</h6>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Efficiency
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Accuracy
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Streamlining
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Analysis
+                </a>
+              </p>
             </MDBCol>
 
-            <MDBCol size='auto' className='mb-4 mb-md-0'>
-              <MDBBtn outline color='light'>
-                Get Notified
-              </MDBBtn>
+            <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+              <p>
+                <a href='/students/add' className='text-reset'>
+                  Add Students     
+                </a>
+              </p>
+              <p>
+                <a href='/companies/add' className='text-reset'>
+                  Add Companies
+                </a>
+              </p>
+              <p>
+                <a href='/dashboard/statistics' className='text-reset'>
+                  Handle Statistics
+                </a>
+              </p>
+              <p>
+                <a href='https://github.com/EbookFoundation/free-programming-books' className='text-reset'>
+                  Resources
+                </a>
+              </p>
+            </MDBCol>
+
+            <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+              <p>
+                <MDBIcon color='secondary' icon='home' className='me-2' />
+                140413, Mohali , Punjab
+              </p>
+              <p>
+                <MDBIcon color='secondary' icon='envelope' className='me-3' />
+                umps@gmail.com
+              </p>
+              <p>
+                <MDBIcon color='secondary' icon='phone' className='me-3' /> + 91 99999 99999
+              </p>
+              <p>
+                <MDBIcon color='secondary' icon='print' className='me-3' /> + 91 99999 99999
+              </p>
             </MDBCol>
           </MDBRow>
-        </form>
-      </MDBContainer>
+        </MDBContainer>
+      </section>
 
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        &copy; {new Date().getFullYear()} Copyright:{' '}
-        <a className='text-white' href='/'>
+      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+        © 2023 Copyright:
+        <a className='text-reset fw-bold' href='/'>
           UPMS
         </a>
       </div>
     </MDBFooter>
   );
 }
-
 export default Footer;

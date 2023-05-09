@@ -11,6 +11,8 @@ import Dashboard from "./Pages/Dashboard/Dashboard";
 import AddCompanyForm from "./Pages/Dashboard/AddCompanyForm";
 import ViewStatistics from './Pages/Dashboard/ViewStatistics';
 import Footer from "./componets/Footer/Footer";
+import StudentList from "./Pages/Dashboard/StudentList";
+import CompanyList from "./Pages/Dashboard/CompanyList";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Route path="/dashboard" element={<Dashboard/>}/>
         <Route path="/companies/add" element={<AddCompanyForm />} />
         <Route path="/dashboard/statistics" element={<ViewStatistics/>}/>
+        <Route path="/dashboard/studentlist" element={<StudentList/>}/>
+        <Route path="/dashboard/companylist" element={<CompanyList/>}/>
       </Routes>
       <Footer/>
     </div>
